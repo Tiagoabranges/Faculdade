@@ -1,4 +1,16 @@
 <?php
- $var1 = 10;
- $var2 = ($var1 >= 10) ? 11 : 9;
- echo $var2; //imprimirá 11
+
+$i = 2;
+while ($i <= 20) {
+   echo $i;
+   $i+=2;
+   echo "\n";
+}
+
+/*Sintaxe alternativa*/
+$i = 2;
+while ($i <= 20):
+   echo $i;
+   $i+=2;
+   echo "\n";
+endwhile;
