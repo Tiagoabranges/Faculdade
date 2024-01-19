@@ -1,12 +1,13 @@
 <?php
 
- $var1 = 10;
- $var2 = 10;
 
- if($var1 > $var2){
-	echo "$var1 é maior que $var2";
- }elseif($var1 < $var2){
-	echo "$var1 é menor que $var2";
- }else{
-	echo "$var1 e $var2 são iguais";
+switch($var1){
+	case 10:
+		echo "var1 é igual a 10";
+	case 20:
+		echo "var1 é igual a 20";
+		break;
+	default:
+		echo "var1 não é igual a 10 e nem a 20";
+		break;
  }
