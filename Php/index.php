@@ -1,8 +1,6 @@
 <?php
 
-$i = 2;
-do {
-   echo $i;
-   $i+=2;
-   echo "\n";
-}while ($i <= 20);
+for ($i = 1; $i <= 20; $i++) {
+	echo $i;
+	echo "\n";
+ }
