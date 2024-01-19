@@ -1,9 +1,10 @@
 <?php
-
+$var1 = 10;
 
 switch($var1){
 	case 10:
 		echo "var1 é igual a 10";
+        break;
 	case 20:
 		echo "var1 é igual a 20";
 		break;
