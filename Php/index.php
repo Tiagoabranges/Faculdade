@@ -1,13 +1,9 @@
-<?php
-
-$carros = Array("Fusca", "gol", "Passat");
-
-foreach($carros as $carro){
-   echo $carro;
-   echo "\n";
-}
-
-for ($i = 0; $i < count($carros); $i++) {
-   echo $carros[$i];
-   echo "\n";
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Teste PHP</title>
+    </head>
+    <body>
+        <?php echo "<p>Olá Mundo</p>"; ?>
+    </body>
+</html>
