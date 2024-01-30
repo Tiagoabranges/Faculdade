@@ -4,6 +4,14 @@
         <title>Teste PHP</title>
     </head>
     <body>
-        <?php echo "<p>Olá Mundo</p>"; ?>
+        <form action="action.php" method="post">
+    <label for="name">Your name:</label>
+    <input name="name" id="name" type="text">
+
+    <label for="age">Your age:</label>
+    <input name="age" id="age" type="number">
+
+    <button type="submit">Submit</button>
+</form>
     </body>
 </html>
