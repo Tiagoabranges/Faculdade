@@ -1,6 +1,6 @@
 <?php
 
-$carros = Array("Fusca", "Monza", "Passat");
+$carros = Array("Fusca", "gol", "Passat");
 
 foreach($carros as $carro){
    echo $carro;
