@@ -1,17 +1,13 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Teste PHP</title>
-    </head>
-    <body>
-        <form action="action.php" method="post">
-    <label for="name">Your name:</label>
-    <input name="name" id="name" type="text">
+<?php
 
-    <label for="age">Your age:</label>
-    <input name="age" id="age" type="number">
+$carros = Array("Fusca", "gol", "Passat");
 
-    <button type="submit">Submit</button>
-</form>
-    </body>
-</html>
+foreach($carros as $carro){
+   echo $carro;
+   echo "\n";
+}
+
+for ($i = 0; $i < count($carros); $i++) {
+   echo $carros[$i];
+   echo "\n";
+}
